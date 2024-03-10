@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+  font-family: "Noto Sans KR", "Noto Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  color: #FDFDFC;
+}
+
+.device {
+  width: 300px;
+  height: 630px;
+  background-color: #111111;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+.status-bar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  position: relative;
+  color: #FBFBFB;
+}
+
+.status-bar-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 85px;
+}
+
+.status-bar-icon-wifi {
+  margin: 0 10px;
+}
+
+.status-bar-back {
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 8px;
+font-weight: 500;
+position: absolute;
+left: 8px;
+top: 15px;
+}
+
+.status-bar-back-text {
+  margin-left: 3px;
+}
+
+.chat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 20px;
+}
+
+.chat__left {
+  display: flex;
+  align-items: center;
+
+}
+
+.chat__left i {
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+.chat__right > i {
+  margin: 0 5px;
+}
+
+.chat__right {
+  position: relative;
+}
+
+.green-circle {
+  width: 5px;
+  height: 5px;
+  background-color: #08C451;
+  border-radius: 50%;
+  position: absolute;
+  left: 53px;
+  bottom: 18px;
+}
+
+.search{
+  background-color: #1F1F1F;
+  margin: 0 10px;
+  margin-top: 20px;
+  padding: 12px 15px;
+
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.search__box {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1F1F1F;
+  color: silver;
+  opacity: 0.5;
+}
+
+.search__box-text {
+  margin-right: 190px;
+}
+
+.friends__list {
+  margin: 15px 10px;
+}
+
+.friends__list-recommend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friends__list-recommend_img {
+  width: 45px;
+  height: 45px;
+  background-color: #08C451;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.friends__list_text_2 {
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.friends__list_text_big_small {
+  font-size: 11px;
+  font-weight: 500;
+  color: #525353;
+  margin-left: 1px;
+}
+
+
+----
+
+
+.friends__list-2 {
+  margin: 15px 10px;
+}
+
+.friends__list-3-circle_img_cony {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.friends__list-recommend-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.friends__list-recommend_img-2 {
+  width: 45px;
+  height: 45px;
+  background-color: #08C451;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.friends__list_text_2-2 {
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.friends__list_text_big_small-2 {
+  font-size: 11px;
+  font-weight: 500;
+  color: #525353;
+  margin-left: 1px;
+}
+
+-----
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 310px;
+}
+
+.footer span {
+  font-size: 8px;
+  margin-top: 4px;
+}
+
+.footer__home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #08C451;
+}
+
+.footer__call {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom__bar {
+  margin-top: 20px;
+  margin-left: 90px;
+  width: 110px;
+  height: 5px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
